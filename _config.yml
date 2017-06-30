@@ -5,7 +5,7 @@ title_separator          : "-"
 name                     : &name "Juno"
 description              : &description "Juno's Blog"
 url                      : "https://rainhelper.net"
-baseurl                  : "/"
+baseurl                  : ""
 repository               : "rainhelper/blog"
 teaser                   : "500x300.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)

@@ -16,23 +16,25 @@ $padding-title-header
         display block
     p, h1, h2, h3, h4, h5, ul,ol, .tags, iframe, .button-post
         center(rem(800px))
-        padding 0 rem(3px)
+        padding 0 rem(15px)
         margin 0 auto rem(10px)
         mainFont(450)
-        font-size rem(18px)
+        font-size rem(13px)
         line-height 1.6
         letter-spacing 0.01rem
         +above(cut)
-            font-size rem(17px)
+            font-size rem(16px)
     li
         padding rem(0px) 0
         ul
+            padding rem(0px) rem(30px)
         margin-bottom 0
     p,li
         color texts
         code
             color main
             word-wrap break-word
+            font-family 'Malgun Gothic', 'Tahoma', 'verdana'
     a
         color main
         border-bottom 2px dashed main
@@ -49,8 +51,11 @@ $padding-title-header
         background-image url('../img/external.svg')
         background-size 100%
         margin-left rem(5px)
-        width rem(18px)
-        height rem(18px)
+        width rem(15px)
+        height rem(15px)
+        +below(cut)
+            width rem(10px)
+            height rem(10px)
     iframe
         margin-top rem(30px)
         width 100%
@@ -69,7 +74,7 @@ $padding-title-header
         font-size rem(22px)
         line-height 1.4
         border-bottom 1.3px solid black
-        padding 0 rem(0px)
+        padding 0 rem(10px)
         +above(cut)
             font-size rem(30px)
     h3
@@ -100,18 +105,20 @@ $padding-title-header
     blockquote
         center(rem(750px))
         border-left rem(5px) solid main
-        padding 0 rem(8px)
-        margin rem(7px) auto
+        padding 0 rem(2px)
+        margin rem(8px) auto
         +below(cut)
-            width 90%
+            width 100%
+            padding 0 rem(8px)
+            margin rem(5px) rem(5px)
         p
             color #999999
             margin 0
             mainFont(350)
             font-style italic
-            font-size rem(16px)
+            font-size rem(15px)
             +below(cut)
-                font-size rem(18px)
+                font-size rem(11px)
                 line-height 1.5
                 padding 0
     hr

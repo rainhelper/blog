@@ -1,0 +1,12 @@
+.DS_Store
+_site
+node_modules
+_drafts
+*.sublime-project
+*.sublime-workspace
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+codekit-config.json
+node_modules
+npm-debug.log*

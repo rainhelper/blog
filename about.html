@@ -1,0 +1,38 @@
+---
+layout: minimal
+title: "About me"
+permalink: /about/index.html
+description: ""
+---
+
+<!--<img itemprop="image" class="img-rounded" src="/assets/img/blog-author.jpg" alt="Juno">-->
+
+<h2>About Me</h2>
+<p>나는야 꼬꼬마 개발자</p>
+
+<h2>Social</h2>
+<ul>
+	{% if site.facebook %}
+	<li>
+        <a class="link" data-title="facebook.com/{{ site.facebook }}" href="http://facebook.com/{{ site.facebook }}" target="_blank">
+            Facebook
+        </a>
+	</li>
+    {% endif %}
+
+	{% if site.linkedin %}
+	<li>
+		<a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank">
+			LinkedIn
+		</a>
+	</li>
+	{% endif %}
+
+	{% if site.email %}
+	<li>
+        <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}">
+            Email
+        </a>
+	</li>
+    {% endif %}
+</ul>
